@@ -17,7 +17,7 @@ dashboard.
 1.  Clone the repository
 
     ```bash
-    git clone https://github.com/RahulSandhu/your-repo-name # Replace with actual URL
+    git clone https://github.com/RahulSandhu/shiny-hdvc
     cd your-repo-name
     ```
 
