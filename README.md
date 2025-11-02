@@ -48,6 +48,16 @@ dashboard.
     shiny::runApp("src/app")
     ```
 
+5.  Install Python development dependencies
+
+    Although the notebooks use an R kernel, this step installs the Python
+    dependencies (listed in `pyproject.toml`) for general project tools and
+    environment management, using `pip`.
+
+    ```bash
+    pip install .
+    ```
+
 ## 🎓 Acknowledgments
 
 - Borzooei, S. & Tarokhian, A. (2023). **Differentiated Thyroid Cancer
