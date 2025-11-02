@@ -1,8 +1,6 @@
 # Virtual Environment files
-.venv
-.renv
-.Renviron
-.Rprofile
+.venv/
+.renv/
 
 # Jupyter/IPython Notebook Checkpoints
 # Ignores all folders named .ipynb_checkpoints found anywhere.

@@ -1,0 +1,2 @@
+R_LIBS_USER="~/.local/Rlibs"
+RENV_PATHS_RENV = ".renv"
