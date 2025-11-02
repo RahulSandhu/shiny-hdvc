@@ -1,0 +1,82 @@
+/* Import the Google Font Noto Serif */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+/* Apply the font and page background color */
+body {
+  font-family: 'Noto Serif', serif; 
+  background-color: #DBD9D6 !important; 
+  color: #231F20; 
+  font-weight: 400; 
+  font-size: 24px; 
+}
+
+/* Navbar */
+.navbar-brand {
+  margin-right: 3rem !important; 
+  font-size: 2.5rem !important; 
+  font-weight: 700;
+}
+.navbar .nav-link {
+  font-size: 1.225rem !important; 
+  font-weight: 700; 
+}
+.navbar .nav-link.active {
+  color: #FFCE00 !important; 
+  font-weight: 700 !important; 
+}
+.navbar .search-nav-item {
+  align-self: center;
+}
+.navbar .form-group {
+  margin-bottom: 0 !important;
+}
+
+/* Search bar */
+#search.form-control {
+  height: 38px !important;
+  min-height: 38px !important; 
+  padding: 0.2rem 0.75rem !important; 
+  font-size: 1.125rem !important;  
+  font-family: 'Noto Serif', serif; 
+  background-color: #FFFFFF !important; 
+  color: #231F20 !important; 
+}
+#search.form-control::placeholder {
+  color: #A4A9AD !important; 
+  opacity: 1;
+}
+
+/* Card */
+.card-header {
+  font-family: 'Noto Serif', serif;
+  font-weight: 700; 
+  background-color: #90292A !important; 
+  color: #FFFFFF !important; 
+  font-size: 21pt !important; 
+  padding: 1rem !important; 
+}
+.card-body {
+  color: #231F20 !important;
+}
+
+/* Background image */
+body::before {
+  content: ""; 
+  position: fixed; 
+  z-index: -1; 
+  
+  background-image: url('images/escut.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  opacity: 0.4; 
+  
+  width: 830px;  
+  height: 810px; 
+
+  top: 45px;  
+  right: -420px; 
+
+  transform: rotate(-40deg);
+  transform-origin: bottom right; 
+}
