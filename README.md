@@ -18,7 +18,7 @@ dashboard.
 
     ```bash
     git clone https://github.com/RahulSandhu/shiny-hdvc
-    cd your-repo-name
+    cd shiny-hdvc
     ```
 
 2.  Ensure R and renv are installed
